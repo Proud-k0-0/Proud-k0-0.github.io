@@ -1,0 +1,339 @@
+body{
+	background-color: teal;
+}
+#head{
+	background-color: aliceblue;
+}
+#lex{
+	font-size: 100px;
+	color: orangered;
+	font-weight: bold;
+}
+.btn{
+	width: 700px;
+	height: 170px;
+	border-radius: 100px;
+	font-weight: bold;
+	font-size: 100px;
+	font-family: cursive;
+	color: darksalmon;
+}
+#board{
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	background-color: darkseagreen;
+}
+#stage{
+	color: white;
+	background-color: darkseagreen;
+	font-size: 50px;
+	font-family: fantasy;
+	text-align: center;
+	font-weight: bold;
+}
+#score{
+	font-weight: bold;
+	color: red;
+	font-size: 20px;
+	display: none;
+}
+.color{
+	width: 100px;
+	height: 50px;
+	background-color: aliceblue;
+}
+#quest{
+	width: 500px;
+	height: 100px;
+	border-radius: 10px;
+	border: double;
+}
+#color1{
+	background-color: red;
+}
+#color2{
+	background-color: green;
+}
+#color3{
+	background-color: blue;
+}
+#color4{
+	background-color: yellow;
+}
+#color5{
+	background-color: black;
+}
+#color6{
+	background-color: white;
+}
+#color7{
+	background-color: orange;
+}
+#color8{
+	background-color: brown;
+}
+#color9{
+	background-color: purple;
+}
+#color10{
+	background-color: aquamarine;
+}
+#color11{
+	background-color: maroon;
+}
+#color12{
+	background-color: beige;
+}
+#color13{
+	background-color: orangered;
+}
+#color14{
+	background-color: pink;
+}
+#color15{
+	background-color: grey;
+}
+#color16{
+	background-color: lime;
+}
+#color17{
+	background-color: darkseagreen;
+}
+#color18{
+	background-color: violet;
+}
+#color19{
+	background-color: darkkhaki;
+}
+#color20{
+	background-color: indigo;
+}
+#color21{
+	background-color: tan;
+}
+#color22{
+	background-color: turquoise;
+}
+#color23{
+	background-color: olivedrab;
+}
+#color24{
+	background-color: salmon;
+}
+#color25{
+	background-color: seagreen;
+}
+#color26{
+	background-color: lavender;
+}
+#color27{
+	background-color: gold;
+}
+#color28{
+	background-color: darksalmon;
+}
+#color29{
+	background-color: magenta;
+}
+#color30{
+	background-color: cornflowerblue;
+}
+#color31{
+	background-color: rebeccapurple;
+}
+#color32{
+	background-color: dodgerblue;
+}
+#color33{
+	background-color: mediumorchid;
+}
+#color34{
+	background-color: navy;
+}
+#color35{
+	background-color: cadetblue;
+}
+#color36{
+	background-color: olive;
+}
+#color37{
+	background-color: steelblue;
+}
+#color38{
+	background-color: sienna;
+}
+#color39{
+	background-color: darkgoldenrod;
+}
+#color40{
+	background-color: moccasin;
+}
+#color41{
+	background-color: coral;
+}
+#color42{
+	background-color: thistle;
+}
+#color43{
+	background-color: goldenrod;
+}
+#color44{
+	background-color: chartreuse;
+}
+#color45{
+	background-color: tomato;
+}
+#color46{
+	background-color: crimson;
+}
+#color47{
+	background-color: peru;
+}
+#color48{
+	background-color: plum;
+}
+#color49{
+	background-color: cyan;
+}
+#color50{
+	background-color: mistyrose;
+}
+#life1{
+	display: none;
+	width: 20px;
+	height: 20px;
+}
+#life2{
+	display: none;
+	width: 20px;
+	height: 20px;
+}
+#life3{
+	display: none;
+	width: 20px;
+	height: 20px;
+}
+#life4{
+	display: none;
+	width: 20px;
+	height: 20px;
+}
+#life5{
+	display: none;
+	width: 20px;
+	height: 20px;
+}
+#pause{
+	display: none;
+	border-color: yellow;
+	background-color: black;
+	border-radius: 10px;
+	width: 40px;
+	height: 40px;
+}
+#timer{
+	font-size: 20px;
+	font-weight: bold;
+	width: 100px;
+	text-align: center;
+}
+#game{
+	font-size: 180px;
+	color: red;
+	font-family: fantasy;
+	display: none;
+	text-shadow: 5px 5px 5px;
+}
+#over{
+	font-size: 180px;
+	color: blue;
+	font-family: fantasy;
+	display: none;
+	text-shadow: 5px 5px 5px;
+}
+#main{
+	font-size: 50px;
+	display: none;
+}
+#hp{
+	color: yellowgreen;
+	display: none;
+}
+#w{
+	font-family: fantasy;
+	font-size: 120px;
+	display: none;
+	text-shadow: 2px 2px 2px darkgoldenrod;
+	color: gold;
+}
+#o{
+	font-family: fantasy;
+	font-size: 120px;
+	display: none;
+	text-shadow: 2px 2px 2px darkgoldenrod;
+	color: gold;
+}
+#n{
+	font-family: fantasy;
+	font-size: 120px;
+	display: none;
+	text-shadow: 2px 2px 2px darkgoldenrod;
+	color: gold;
+}
+#mode{
+	font-family: cursive;
+	font-size: 50px;
+	text-shadow: 2px 2px 2px orangered;
+	color: red;
+	display: none;
+}
+.mode{
+	border-radius: 100px;
+	width: 700px;
+	height: 200px;
+	font-size: 100px;
+	font-family: cursive;
+	background-color: beige;
+	display: none;
+}
+#story{
+	color: red;
+}
+#endless{
+	color: green;
+}
+#settingss{
+	display: none;
+}
+.settin{
+	border: double;
+	background-color: grey;
+}
+#back{
+	font-size: 100px;
+	border-radius: 50px;
+	width: 400px;
+}
+#theme{
+	color: yellow;
+	font-size: 20px;
+}
+.them{
+	border-radius: 20px;
+	width: 150px;
+	height: 50px;
+}
+#contact{
+	color: lightgreen;
+	font-size: 20px;
+}
+textarea{
+	width: 450px;
+	height: 200px;
+	font-size: 30px;
+}
+#submit{
+	border-radius: 20px;
+	font-size: 20px;
+}

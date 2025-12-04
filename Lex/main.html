@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="design.css">
+	<script type="text/javascript" src="code.js"></script>
+	<title>Lex</title>
+</head>
+<body id="body">
+	<div id="setting">
+	<!-- Head -->
+	<section id="delete">
+		<div id="head">
+			<hr color="yellow">
+				<center><h1 id="lex">Lex</h1></center>
+			<hr color="yellow">
+		</div><br><br>
+		<!-- Buttons -->
+		<div>
+			<center><button id="play" onclick="play()" class="btn">Play</button>&nbsp&nbsp&nbsp<a href="C:\Users\1_NewLecture01\Desktop\project\Website.html"><button id="exit" class="btn">Exit</button></a><br><br>
+			<button id="help" class="btn" onclick="help()">Help</button>&nbsp&nbsp&nbsp<button id="settings" class="btn" onclick="settings();">Settings</button></center>
+		</div>
+	</section>
+	<img src="Assets/pause.png" id="pause" onclick="pause();">
+	<!-- Life -->
+	<h1 id="hp">HP:</h1><img src="Assets/life.png" id="life1"><img src="Assets/life.png" id="life2"><img src="Assets/life.png" id="life3"><img src="Assets/life.png" id="life4"><img src="Assets/life.png" id="life5">
+	<!-- The game itself -->
+	<section id="board">
+		<!-- The top of the game -->
+		<center><input type="text" name="" id="stage" value="Stage 1" disabled><br>
+			<!-- The timer -->
+			<input type="text" name="" id="timer" disabled value="0">
+		</center>
+		<center><div id="quest"></div><br>
+		
+		<!-- The answer color buttons -->
+		<button id="color1" class="color" onclick="red();"></button><button id="color2" class="color" onclick="green();"></button><button id="color3" class="color" onclick="blue();"></button><button id="color4" class="color" onclick="yellow();"></button><button id="color5" class="color" onclick="black();"></button><button id="color6" class="color" onclick="white();"></button><button id="color7" class="color" onclick="orange();"></button><button id="color8" class="color" onclick="brown();"></button><button id="color9" class="color" onclick="purple();"></button><button id="color10" class="color" onclick="aquamarine();"></button><br>
+
+		<button id="color11" class="color" onclick="maroon();"></button><button id="color12" class="color" onclick="beige();"></button><button id="color13" class="color" onclick="orangered();"></button><button id="color14" class="color" onclick="pink();"></button><button id="color15" class="color" onclick="grey();"></button><button id="color16" class="color" onclick="lime();"></button><button id="color17" class="color" onclick="darkseagreen();"></button><button id="color18" class="color" onclick="violet();"></button><button id="color19" class="color" onclick="darkkhaki();"></button><button id="color20" class="color" onclick="indigo();"></button><br>
+
+		<button id="color21" class="color" onclick="tan();"></button><button id="color22" class="color" onclick="turquoise();"></button><button id="color23" class="color" onclick="olivedrab();"></button><button id="color24" class="color" onclick="salmon();"></button><button id="color25" class="color" onclick="seagreen();"></button><button id="color26" class="color" onclick="lavender();"></button><button id="color27" class="color" onclick="gold();"></button><button id="color28" class="color" onclick="darksalmon();"></button><button id="color29" class="color" onclick="magenta();"></button><button id="color30" class="color" onclick="cornflowerblue();"></button><br>
+
+		<button id="color31" class="color" onclick="rebeccapurple()"></button><button id="color32" class="color" onclick="dodgerblue();"></button><button id="color33" class="color" onclick="mediumorchid();"></button><button id="color34" class="color" onclick="navy();"></button><button id="color35" class="color" onclick="cadetblue();"></button><button id="color36" class="color" onclick="olive();"></button><button id="color37" class="color" onclick="steelblue();"></button><button id="color38" class="color" onclick="sienna();"></button><button id="color39" class="color" onclick="darkgoldenrod();"></button><button id="color40" class="color" onclick="moccasin();"></button><br>
+
+		<button id="color41" class="color" onclick="coral();"></button><button id="color42" class="color" onclick="thistle();"></button><button id="color43" class="color" onclick="goldenrod();"></button><button id="color44" class="color" onclick="chartreuse();"></button><button id="color45" class="color" onclick="tomato();"></button><button id="color46" class="color" onclick="crimson();"></button><button id="color47" class="color" onclick="peru();"></button><button id="color48" class="color" onclick="plum();"></button><button id="color49" class="color" onclick="cyan();"></button><button id="color50" class="color" onclick="mistyrose();"></button><br>
+		</center>
+	</section>
+		<input type="" name="" id="score" disabled>
+	<center><h1 id="game">GAME</h1><h1 id="over">OVER</h1><br>
+		<h1 id="w">GAME</h1><h1 id="o">WON</h1><h1 id="n">CONGRADULATIONS!</h1><br>
+		<h1 id="mode"><u>Choose the mode of play</u></h1>
+		<button onclick="story();" class="mode" id="story"><b>Story</b></button>&nbsp<button onclick="endless();" class="mode" id="endless"><b>Endless</b></button></center></div><center>
+		<section id="settingss">
+			<div class="settin">
+				<h6 id="theme">Theme</h6>
+				<button onclick="og();" class="them">Original</button><button onclick="dt();" class="them">Dark</button><button onclick="lt();" class="them">Light</button>
+			</div>
+			<div class="settin">
+				<h6 id="contact">Comment</h6>
+				<textarea placeholder="Type your description here...." id="descript"></textarea><br>
+				<input type="submit" name="" id="submit" onclick="submit();">
+			</div>
+			<button id="back" onclick="back();"><==</button>
+		</section>
+	<a href="C:\Users\1_NewLecture01\Desktop\project\Website.html" id="main">Main menu</a></center>
+</body>
+</html>
